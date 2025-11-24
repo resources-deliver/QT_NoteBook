@@ -1,0 +1,28 @@
+{
+	"BUILD_DIR" : "D:/Code/Qt(QtCreator)/QtNoteBookProject/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/QtNoteBookProject_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Code/Qt(QtCreator)/QtNoteBookProject/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Code/Qt(QtCreator)/QtNoteBookProject/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Code/Qt(QtCreator)/QtNoteBookProject",
+	"CMAKE_SOURCE_DIR" : "D:/Code/Qt(QtCreator)/QtNoteBookProject",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "D:/Code/Qt(QtCreator)/QtNoteBookProject/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/QtNoteBookProject_autogen/include",
+	"INPUTS" : 
+	[
+		"D:/Code/Qt(QtCreator)/QtNoteBookProject/Images/tipsWindowPng.jpg",
+		"D:/Code/Qt(QtCreator)/QtNoteBookProject/Images/132.bmp",
+		"D:/Code/Qt(QtCreator)/QtNoteBookProject/Images/\u80cc\u666f\u56fe2.jpg",
+		"D:/Code/Qt(QtCreator)/QtNoteBookProject/Images/\u80cc\u666f\u56fe3.jpg"
+	],
+	"LOCK_FILE" : "D:/Code/Qt(QtCreator)/QtNoteBookProject/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/CMakeFiles/QtNoteBookProject_autogen.dir/AutoRcc_Pictures_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "Pictures" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_Pictures.cpp",
+	"RCC_EXECUTABLE" : "E:/Qt/6.8.2/mingw_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/Code/Qt(QtCreator)/QtNoteBookProject/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/CMakeFiles/QtNoteBookProject_autogen.dir/AutoRcc_Pictures_EWIEGA46WW_Used.txt",
+	"SOURCE" : "D:/Code/Qt(QtCreator)/QtNoteBookProject/Pictures.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

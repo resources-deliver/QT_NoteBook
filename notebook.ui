@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NoteBook</class>
+ <widget class="QWidget" name="NoteBook">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>961</width>
+    <height>571</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>NoteBook</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="TopLayout">
+       <item>
+        <widget class="QComboBox" name="DocumentComboBox">
+         <item>
+          <property name="text">
+           <string>新建文件</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::DocumentNew"/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>打开文件</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::DocumentOpen"/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>保存文件</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::DocumentSave"/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>另存文件</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::DocumentSaveAs"/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>打印文件</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::DocumentPrint"/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>复制文件</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::EditCopy"/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>删除文件</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::EditDelete"/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>关闭文件</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::EditClear"/>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="EditComboBox">
+         <item>
+          <property name="text">
+           <string>清空</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::EditClear"/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>复制</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::EditCopy"/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>粘贴</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::EditPaste"/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>剪切</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::EditCut"/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>删除</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::EditDelete"/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>查找</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::EditFind"/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>撤销</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::EditRedo"/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>全选</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::EditSelectAll"/>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="TextShowComboBox">
+         <item>
+          <property name="text">
+           <string>居左</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::FormatJustifyLeft"/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>居中</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::FormatJustifyCenter"/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>居右</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::FormatJustifyRight"/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>加粗</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::FormatTextBold"/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>斜体</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::FormatTextItalic"/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>下划线</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::FormatTextUnderline"/>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <spacer name="TopHorizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Orientation::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>300</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="TextEdit"/>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="ButtomLayout">
+       <item>
+        <widget class="QPushButton" name="ExitPushButton">
+         <property name="text">
+          <string>PushButton</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="AboutPushButton">
+         <property name="text">
+          <string>PushButton</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="HelpPushButton">
+         <property name="text">
+          <string>PushButton</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="TestPushButton">
+         <property name="text">
+          <string>PushButton</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="ButtomHorizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Orientation::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>178</width>
+           <height>28</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QDateTimeEdit" name="DateTimeEdit"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

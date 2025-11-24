@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/Pictures">
+        <file>Images/132.bmp</file>
+        <file>Images/tipsWindowPng.jpg</file>
+        <file>Images/背景图2.jpg</file>
+        <file>Images/背景图3.jpg</file>
+    </qresource>
+</RCC>
